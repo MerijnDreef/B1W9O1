@@ -1,10 +1,24 @@
 body{
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Archivo', sans-serif;   
+}
+.content{
+    width:1000px;
+    margin: 0 auto;
 }
 .a{
     text-align:center;
 }
 .b{
-    
+    margin: 0 auto;
     width:1000px;
+}
+nav>ul{
+    width:950px;
+    background-color:#222931;
+}
+li{
+    font-size:12px;
+    font-weight:500;
+    display:inline-block;
+    color:#ffffff;
 }
