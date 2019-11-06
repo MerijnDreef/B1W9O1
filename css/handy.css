@@ -26,7 +26,7 @@ a{
     top:42px;
     left:0px;
     font-size:16px;
-    text-decoration-color:#ffffff;
+    color:#ffffff;
 }
 .uitklap-item:hover> .uitklap{
     display:block;
@@ -34,6 +34,7 @@ a{
     padding-top:5px;
     padding-right:100px;
     padding-bottom:5px;
+    color:#ffffff;
     background-color:#222931;
     width:140px;
 }
@@ -43,17 +44,17 @@ a{
     padding-top:5px;
     padding-right:100px;
     padding-bottom:5px;
-    text-decoration-color:#222931;
+    color:#222931;
     background-color:#ffe718;
 }
 .uitklap-item{
     position:relative;
 }
 .b{
+    z-index: -1;
     position: relative;
-    top:00px;
-    left:0px;
-
+    bottom:40px;
+    width:1600px;
 }
 nav>ul{
     width:950px;
