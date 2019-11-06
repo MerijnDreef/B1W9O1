@@ -17,8 +17,17 @@ nav>ul{
     background-color:#222931;
 }
 li{
+    margin-left:10px;
+    margin-top:12px;
+    margin-bottom:12px;
     font-size:12px;
     font-weight:500;
     display:inline-block;
     color:#ffffff;
+}
+i{
+    position:relative;
+    left:3px;
+    top:1px;
+    bottom:0px;
 }
