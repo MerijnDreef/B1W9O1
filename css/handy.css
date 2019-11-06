@@ -4,9 +4,14 @@ body{
 a{
     text-decoration: none;
 }
+.content{
+    margin: 0 auto;
+    width: 1000px;
+}
 .menu>li{
     display:inline-block;
-    border:20px solid #222931;
+    border:1px solid #222931;
+    padding:15px 10px;
    
 }
 .uitklap-item:hover{
@@ -18,36 +23,44 @@ a{
     list-style-type:none;
     padding:0;
     position:absolute;
-    width:70px;
+    top:42px;
+    left:0px;
     font-size:16px;
+    text-decoration-color:#ffffff;
 }
 .uitklap-item:hover> .uitklap{
     display:block;
-    margin: 20px 20px;
+    padding-left:0px;
+    padding-top:5px;
+    padding-right:100px;
+    padding-bottom:5px;
     background-color:#222931;
     width:140px;
 }
 .uitklap> li:hover{
     border:1px solid #222931;
-    width:128px;
+    padding-left:0px;
+    padding-top:5px;
+    padding-right:100px;
+    padding-bottom:5px;
+    text-decoration-color:#222931;
     background-color:#ffe718;
 }
 .uitklap-item{
     position:relative;
 }
-.a{
-    text-align:center;
-}
 .b{
-    margin: 0 auto;
+    position: relative;
+    top:00px;
+    left:0px;
 
 }
 nav>ul{
     width:950px;
     background-color:#222931;
 }
-li{
-    margin-left:10px;
+.menu> li{
+    margin-right:10px;
     font-size:12px;
     font-weight:500;
     display:inline-block;
@@ -58,4 +71,7 @@ i{
     left:3px;
     top:1px;
     bottom:0px;
+}
+ul{
+    padding:0px;
 }
