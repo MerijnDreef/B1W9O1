@@ -3,6 +3,7 @@ body{
 }
 a{
     text-decoration: none;
+    color:#ffffff;
 }
 .content{
     margin: 0 auto;
@@ -26,24 +27,33 @@ a{
     top:42px;
     left:0px;
     font-size:16px;
+    font-weight:500;
     color:#ffffff;
+}
+a:hover{
+    border:0px solid #ffe718;
+    padding-right:100px;
+    margin-top:0px;
+    margin-bottom:0px; 
+    color:#222931;
 }
 .uitklap-item:hover> .uitklap{
     display:block;
     padding-left:0px;
     padding-top:5px;
-    padding-right:100px;
+    padding-right:50px;
     padding-bottom:5px;
     color:#ffffff;
     background-color:#222931;
-    width:140px;
+    width:100px;
 }
 .uitklap> li:hover{
     border:1px solid #222931;
     padding-left:0px;
-    padding-top:5px;
-    padding-right:100px;
-    padding-bottom:5px;
+    padding-top:0px;
+    padding-right:50px;
+    padding-bottom:0px;
+    width:100px;
     color:#222931;
     background-color:#ffe718;
 }
@@ -52,9 +62,16 @@ a{
 }
 .b{
     z-index: -1;
+    position: absolute;
+    top:75px;
+    left:0px;
+    width:100%;
+}
+.c{
     position: relative;
-    bottom:40px;
-    width:1600px;
+    top:440px;
+    left:250px;
+    padding-left:20px;
 }
 nav>ul{
     width:950px;
@@ -73,6 +90,29 @@ i{
     top:1px;
     bottom:0px;
 }
+.a{
+    margin-left:40px;
+}
 ul{
     padding:0px;
+    margin-left:40px;
+}
+.ribbon{
+    position:relative;
+    top:450px;
+    padding-top:50px;
+    width:100%;
+    background-color:#ffe718;
+    display:inline-block;
+}
+#ribbon-big{
+    font-size:34px;
+    font-weight:700;
+    display:inline-block;
+}
+#ribbon-small{
+    padding-left:20px;
+    font-size:16px;
+    font-weight:700;
+    display:inline-block;
 }
