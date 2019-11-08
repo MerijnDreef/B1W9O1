@@ -98,12 +98,14 @@ ul{
     margin-left:40px;
 }
 .ribbon{
-    position:relative;
-    top:450px;
-    padding-top:50px;
+    position:absolute;
+    top:850px;
+    left:0px;
+    padding-left:270px;
+    padding-top:30px;
+    padding-bottom:30px;
     width:100%;
     background-color:#ffe718;
-    display:inline-block;
 }
 #ribbon-big{
     font-size:34px;
