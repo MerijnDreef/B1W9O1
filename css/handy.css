@@ -12,7 +12,7 @@ a{
 .grid-container{
     display: grid;
     grid-template-columns:320px 300px 30px 150px 150px 30px 170px 130px;
-    grid-template-rows:530px 130px 10px 80px 0px;
+    grid-template-rows:530px 130px 10px 80px 0px 0px 0px 0px;
 }
 .grid1{
     grid-column: 2/4;
@@ -308,6 +308,5 @@ ul{
 }
 .footer{
     background-color:#222931;
-    grid-column:1/9;
-    grid-row:7/8;
+    height:20px;
 }
