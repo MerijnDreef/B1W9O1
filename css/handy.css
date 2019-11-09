@@ -308,5 +308,17 @@ ul{
 }
 .footer{
     background-color:#222931;
-    height:20px;
+    position:absolute;
+    height:50px;
+    padding-bottom:10px;
+    top:2060px;
+    width:100%;
+    left:0;
+}
+#footer-text{
+    position:absolute;
+    height:30px;
+    top:0px;
+    left:1100px;
+    color:#ffffff;
 }
