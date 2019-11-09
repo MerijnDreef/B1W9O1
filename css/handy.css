@@ -11,8 +11,8 @@ a{
 }
 .grid-container{
     display: grid;
-    grid-template-columns:320px 300px 30px 150px 150px 30px 150px 150px;
-    grid-template-rows:530px 130px 10px 80px 00px;
+    grid-template-columns:320px 300px 30px 150px 150px 30px 170px 130px;
+    grid-template-rows:530px 130px 10px 80px 0px;
 }
 .grid1{
     grid-column: 2/4;
@@ -23,7 +23,7 @@ a{
     grid-row: 2/3;
 }
 .grid3{
-    grid-column: 6/8;
+    grid-column: 7/8;
     grid-row: 2/3;
 }
 .grid4{
@@ -250,4 +250,64 @@ ul{
 #ribbon-knop:hover{
     background-color:#222931;
     color:#ffffff;
+}
+#contact{
+    grid-column:7/8;
+    grid-row:5/7;
+    font-size:22px;
+    font-weight:500; 
+}
+.grid7{
+    padding-top:70px;
+    grid-column:7/8;
+    grid-row:5/7;
+    font-size:30px;
+    color:#5f656d; 
+}
+.grid8{
+    padding-top:130px;
+    grid-column:7/8;
+    grid-row:5/7;
+    font-size:40px;
+    color:#5f656d; 
+}
+.grid9{
+    padding-top:200px;
+    grid-column:7/8;
+    grid-row:5/7;
+    font-size:28px;
+    color:#5f656d; 
+}
+#text4{
+    display:inline;
+    font-size:12px;
+    padding-top:60px;
+    padding-left:40px;
+    padding-right:10px;
+    color:#5f656d;
+    grid-column:7/8;
+    grid-row:5/7; 
+}
+#text5{
+    display:inline;
+    padding-top:130px;
+    padding-left:40px;
+    font-size:12px;
+    color:#5f656d; 
+    grid-column:7/8;
+    grid-row:5/7;
+}
+#text6{
+    display:inline;
+    padding-top:200px;
+    padding-left:40px;
+    font-size:12px;
+    color:#5f656d; 
+    grid-column:7/8;
+    grid-row:5/7;
+}
+.footer{
+    background-color:#222931;
+    grid-column:1/9;
+    grid-row:7/8;
 }
