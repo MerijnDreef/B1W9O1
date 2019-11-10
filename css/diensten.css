@@ -17,7 +17,7 @@ a{
 .grid-container{
     display: grid;
     grid-template-columns:260px 60px 220px 40px 30px 240px 30px 60px 200px 100px;
-    grid-template-rows:470px 70px 10px 30px 140px 0px 0px 0px;
+    grid-template-rows:960px 300px 10px 30px 140px 0px 0px 0px;
 }
 .grid1{
     grid-column: 2/4;
@@ -231,7 +231,7 @@ ul{
 }
 .ribbon{
     position:absolute;
-    top:930px;
+    top:1000px;
     left:0px;
     padding-top:30px;
     padding-bottom:30px;
@@ -322,7 +322,7 @@ ul{
     position:absolute;
     height:50px;
     padding-bottom:10px;
-    top:2060px;
+    top:1900px;
     width:100%;
     left:0;
 }
@@ -333,69 +333,40 @@ ul{
     left:1100px;
     color:#ffffff;
 }
-#banner1{
-    z-index:-1;
-    color: #FFFFFF;
-    transition: ease-in-out 1s;
-    display: block;
-    background-size: cover;
-    width: 300px;
-    height: 220px;
-}
-#banner1:hover {
-    z-index:-1;
-    color: #000000;
-    filter: brightness(50%);
-}
-#textbanner1{
-    z-index:-1;
+.tekst{
+    font-size:16px;
+    height:24px;
+    font-weight:500;
+    width:950px;
     position:absolute;
-    font-size:32px;
-    font-weight:600;
-    top:650px;
-    left:320px;
-}     
-#textbanner1:hover{
-    z-index:+1;
-    display:block;
-    position:relative;
-    color:#ffffff;
+    top:600px;
+    left:260px;
 }
-#banner2:hover{
-    z-index:-1;
-    filter:brightness(40%); 
-    list-style-type:none;
-    padding:0;
-    position:absolute;
-    color: #FFFFFFFF;
-}
-#banner3:hover{
-    display:none; 
-    list-style-type:none;
-    padding:0;
-    position:absolute;
-}
-.banners{
-    width:1000px;
-    height:220px;
-    display:block;
+.tooltip{
     position: relative;
-    top:400px;
-    margin: auto;
+    display: inline-block;
+    color: #ffe718;
+    background-color: #FFFFFF;
+    margin: 0;
 }
-.banner {
-    display:inline-block;
-    width: 300px;
-    height: 220px;
-    margin:0 15px;
-    padding: 0;
+.tooltiptext{
+    visibility: hidden;
+    width: 180px;
+    top: 100%;
+    left: 0%;
+    padding: 10px;
+    font-size:12px;
+    background-color: #aeb6be ;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 1;
 }
-.banner>p{
-    position:relative;
-    top:0;
-    left:0;
-    margin:auto;
-    font-size:32px;
-    font-weight:600;
-    color:#ffffff;
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
+.breadcrumb{
+    font-size:12px;
+    font-weight:400;
+    color:#5f656d;
+    padding-bottom: 40px;
+}  
